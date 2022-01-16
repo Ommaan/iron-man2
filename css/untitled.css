@@ -1,0 +1,109 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+#rectangle {
+    width: 1520px;
+    height: 600px;
+    background: grey;
+	}
+	#rectangle,#header_part, #rectangle2,#header_part2{
+	position:relative;
+	}
+  #title{
+    background-color: rgb(26, 24, 24);
+  }
+  #head_part2{
+    background-color: rgb(26, 24, 24); ;
+  }
+	#header_part{
+	top:-463px;
+	right:-365px;
+	}
+	#rectangle2 {
+    width: 2000px;
+    height: 30px;
+    background: white;
+	}
+	#rectangle2{
+    top:-550px;	
+	}
+	#header_part2{
+	top:-1050px;
+	right:-650px;
+	}
+	table{
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+      
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+	  div.content{
+		  margin-left:60px;
+		  display:block;
+		  
+	  }
+	  div.name{
+		 width:660px;
+		 height:42px;
+		 background:#cce6ff;
+		 border-left:5px solid blue;
+	  }
+	  div.name1{
+		 width:660px;
+		 height:30px;
+		 background:#ffcccc;
+		 border-left:5px solid red;
+	  }
+	  body{
+		  background-color: rgb(39, 37, 37);
+	  }
+.ico-wrap {
+  color: #a612d4;
+  width: 48px;
+  height: 48px;
+  margin: 30px 18px 5px 5px;
+  display: block;
+  text-align: center;
+  font-size: 25px;
+  border: 2px solid #9d1cb7;
+  float: left;
+  border-radius: 30px;
+}
+.ico-contact {
+  line-height: 1.9 !important;
+}
+.meanous-andscoev {
+  float: left;
+  margin-bottom: 20px;
+}
+.aio-icon-title {
+  font-size: 16px;
+  color: #950c96;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 767px) {
+  .meanous-andscoev,
+  .ico-wrap {
+  float: none;
+  text-align: center;
+  }
+  .ico-wrap {
+  margin: 0 auto 15px auto;
+  }
+}
+.container-fluid{
+  padding: 10% 115%;
+}
+#iron12{
+  background-color: rgb(22, 21, 21);
+}
+	  
